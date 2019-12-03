@@ -1,0 +1,53 @@
+#contenitore1{
+  margin: 100px 0;
+}
+.contFlex{
+  @include margin-dispaly;
+  display: flex;
+  .left{
+    width: 50%;
+    color: $color-primary;
+    h1{
+      font-size: 60px;
+      margin-bottom: 25px;
+    }
+    p{
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+    div{
+      margin-bottom: 25px;
+      .btm{
+        @include btm-gooSlack;
+        i{
+          margin-right: 5px;
+          color: $color-loghi
+        }
+        &:hover{
+          background: #0f2c80;
+          cursor: pointer;
+        }
+      }
+      .spazio{
+        color: rgba(0, 0, 0, 0.5);
+        margin: 0 8px;
+      }
+    }
+    a{
+      color: $color-primary;
+      i{
+        font-size: 12px;
+        margin-left: 3px;
+      }
+      &:hover{
+        color: $color-btn-google;
+      }
+    }
+  }
+  .right{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+}

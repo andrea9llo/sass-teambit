@@ -7,3 +7,10 @@
   justify-content: space-between;
   align-items: center;
 }
+@mixin btm-gooSlack{
+  padding: 10px 14px;
+  border: 1px solid;
+  border-radius: 5px;
+  background: $color-btn-google;
+  color: white;
+}

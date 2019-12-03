@@ -56,6 +56,80 @@ nav .lista-nav ul #botton:hover i {
   color: white;
 }
 
+#contenitore1 {
+  margin: 100px 0;
+}
+
+.contFlex {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: flex;
+}
+
+.contFlex .left {
+  width: 50%;
+  color: #58402c;
+}
+
+.contFlex .left h1 {
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+.contFlex .left p {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.contFlex .left div {
+  margin-bottom: 25px;
+}
+
+.contFlex .left div .btm {
+  padding: 10px 14px;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #30488f;
+  color: white;
+}
+
+.contFlex .left div .btm i {
+  margin-right: 5px;
+  color: #CC9900;
+}
+
+.contFlex .left div .btm:hover {
+  background: #0f2c80;
+  cursor: pointer;
+}
+
+.contFlex .left div .spazio {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 8px;
+}
+
+.contFlex .left a {
+  color: #58402c;
+}
+
+.contFlex .left a i {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.contFlex .left a:hover {
+  color: #30488f;
+}
+
+.contFlex .right {
+  width: 50%;
+}
+
+.contFlex .right img {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
