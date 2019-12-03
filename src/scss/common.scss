@@ -1,0 +1,9 @@
+@mixin margin-dispaly{
+  width: 80%;
+  margin: auto;
+}
+@mixin flex-display{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
