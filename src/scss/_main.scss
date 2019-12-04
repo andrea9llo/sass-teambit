@@ -15,24 +15,7 @@
       font-size: 28px;
       margin-bottom: 25px;
     }
-    div{
-      margin-bottom: 25px;
-      .btm{
-        @include btm-gooSlack;
-        i{
-          margin-right: 5px;
-          color: $color-loghi
-        }
-        &:hover{
-          background: #0f2c80;
-          cursor: pointer;
-        }
-      }
-      .spazio{
-        color: rgba(0, 0, 0, 0.5);
-        margin: 0 8px;
-      }
-    }
+
     a{
       color: $color-primary;
       i{
@@ -51,7 +34,24 @@
     }
   }
 }
-
+.doblue-btm{
+  margin-bottom: 25px;
+  .btm{
+    @include btm-gooSlack;
+    i{
+      margin-right: 5px;
+      color: $color-loghi
+    }
+    &:hover{
+      background: #0f2c80;
+      cursor: pointer;
+    }
+  }
+  .spazio{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 8px;
+  }
+}
 .contenitore2{
   background: $bg-color;
   color: $color-primary;
@@ -132,4 +132,35 @@
 }
 .vuoto{
   width: 25%;
+}
+#contenitore4{
+  background: $bg-color;
+  color: $color-primary;
+  padding: 80px 0;
+  .cont4{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    h2{
+      width: 70%;
+      margin: auto;
+      font-size: 35px;
+    }
+    a{
+      color: $color-primary;
+      &:hover{
+        color: $color-btn-google;
+      }
+    }
+  }
+}
+.msg{
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px 20px 20px 40px;
+  margin: 30px 0;
+  p{
+    margin-bottom: 80px;
+  }
 }
