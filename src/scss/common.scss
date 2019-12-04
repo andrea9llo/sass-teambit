@@ -14,3 +14,8 @@
   background: $color-btn-google;
   color: white;
 }
+@mixin display-centerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -130,6 +130,107 @@ nav .lista-nav ul #botton:hover i {
   width: 100%;
 }
 
+.contenitore2 {
+  background: #ffe7d2;
+  color: #58402c;
+}
+
+.cont {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #58402c;
+}
+
+.cont h2 {
+  font-size: 28px;
+  width: 54%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.cont .trecol {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  margin: 80px 0;
+}
+
+.cont .trecol div {
+  flex-basis: 30%;
+}
+
+.cont .trecol div p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cont .trecol img {
+  height: 100px;
+}
+
+.cont .img-conig {
+  width: 25%;
+  margin: auto;
+}
+
+.cont .img-conig img {
+  width: 100%;
+}
+
+.contenitore3 {
+  display: -webkit-box;
+  display: flex;
+  color: #58402c;
+  margin: 80px 0;
+}
+
+.wrap-img {
+  flex-basis: 50%;
+}
+
+.wrap-img img {
+  width: 100%;
+}
+
+.wrap-right {
+  flex-basis: 25%;
+}
+
+.wrap-right h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.wrap-right p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.wrap-right a {
+  font-size: 22px;
+}
+
+.wrap-right a i {
+  margin-left: 5px;
+}
+
+.wrap-right div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.wrap-right div img {
+  max-width: 70%;
+}
+
+.vuoto {
+  width: 25%;
+}
+
 * {
   margin: 0;
   padding: 0;
